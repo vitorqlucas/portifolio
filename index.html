@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Vitor Quintanilha Lucas</title>
+
+    <!-- Ícones da Font Awesome para enriquecer visualmente -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho com nome e descrição -->
+    <header>
+        <h1>Vitor Quintanilha Lucas</h1>
+        <p>Analista e Desenvolvedor de Sistemas | Estudante de Tecnologia</p>
+    </header>
+
+    <!-- Navegação com links para rolar até as seções -->
+    <nav>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <!-- Conteúdo principal do site -->
+    <main>
+
+        <!-- Seção Sobre Mim com imagem e descrição pessoal -->
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <img class="foto-perfil" src="images/image.png" alt="Foto de Vitor">
+            <p>
+                Olá! Meu nome é Vitor Quintanilha Lucas, e sou apaixonada por tecnologia.
+                Tenho experiência com Python, Power Platform, Figma, e ferramentas Low-code e No-Code como Bubble, FlutterFlow, N8N, Supabase.
+            </p>
+            <p>
+                Além do trabalho, gosto de aprender sobre empreendedorismo e curtir meu tempo livre com jogos, séries e música.
+            </p>
+        </section>
+
+        <!-- Seção de Projetos com três exemplos -->
+        <section id="projetos">
+            <h2>Projetos</h2>
+
+            <!-- Cada projeto está dentro de um <article> -->
+            <article class="projeto">
+                <h3><i class="fas fa-circle"></i> Plataforma EAD</h3>
+                <p>Desenvolvimento de plataforma EAD utilizando as ferramentas FlutterFlow e Supabase.</p>
+                <img src="images/plataforma_ead.png" alt="Imagem do projeto Dashboard Oracle" class="imagem-projeto">
+                <a href="#projetos" target="_blank">Ver Projeto</a>
+            </article>
+            
+            <article class="projeto">
+                <h3><i class="fas fa-circle"></i>Aplicativo de gestão de equipamentos</h3>
+                <p>Aplicativo desenvolvido com Power Apps, Power Automate e Dataverse.</p>
+                <img src="images/gestao_equipamentos.png" alt="Imagem do projeto" class="imagem-projeto">
+                <a href="#projetos" target="_blank">Ver Projeto</a>
+            </article>
+
+            <article class="projeto">
+                <h3><i class="fas fa-circle"></i>Aplicativo de gestão de clientes</h3>
+                <p>Aplicativo para gestão de clientes utilizando ferramentas Microsoft.</p>
+                <img src="images/gestao_projetos.png" alt="Imagem do projeto" class="imagem-projeto">
+                <a href="#projetos" target="_blank">Ver Projeto</a>
+            </article>
+        </section>
+
+        <!-- Seção de Contato com formulário -->
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="form-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Insira o seu nome">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="Insira o seu e-mail">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" rows="5" placeholder="Insira a sua mensagem"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé com direitos autorais -->
+    <footer>
+        <p>&copy; 2025 Vitor Quintanilha Lucas. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Link para o JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
